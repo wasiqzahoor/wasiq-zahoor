@@ -289,6 +289,11 @@ section{padding:6rem 0;position:relative;z-index:1;}
   text-align: center;      /* text bhi center */
   gap: 1rem;
 }
+@media (max-width: 768px) {
+  .contact-video-wrap {
+    display: none;
+  }
+}
 .social-link {
   font-size: 22px;
   margin: 0 10px;
