@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Wasiq Zahoor — Full Stack Developer Portfolio" />
+  <title>Wasiq · Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Sora:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>⚡</text></svg>" />
+</head>
+<body>
+
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">WZ<span class="accent-dot">.</span></a>
+    <ul class="nav-links" role="list">
+      <li><a href="#about"        class="nav-link">About</a></li>
+      <li><a href="#skills"       class="nav-link">Skills</a></li>
+      <li><a href="#projects"     class="nav-link">Projects</a></li>
+      <li><a href="#certificates" class="nav-link">Certificates</a></li>
+      <li><a href="#experience"   class="nav-link">Experience</a></li>
+      <li><a href="#contact"      class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="theme-toggle" aria-label="Toggle theme">☀️</button>
+      <a href="#contact" class="nav-cta btn-magnetic">Hire Me</a>
+      <button id="menu-btn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div id="mobile-menu" role="dialog" aria-label="Mobile menu">
+  <a href="#about"        class="mobile-nav-link">About</a>
+  <a href="#skills"       class="mobile-nav-link">Skills</a>
+  <a href="#projects"     class="mobile-nav-link">Projects</a>
+  <a href="#certificates" class="mobile-nav-link">Certificates</a>
+  <a href="#experience"   class="mobile-nav-link">Experience</a>
+  <a href="#contact"      class="mobile-nav-link">Contact</a>
+</div>
+
+
+<section id="hero" aria-label="Hero section">
+  <div class="hero-content">
+    <div class="hero-left">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Wasiq Zahoor</h1>
+      <div class="hero-role">
+        <span class="hero-role-prefix">I build </span>
+        <span id="typewriter" data-words='["Web Apps","3D Experiences","APIs","Mobile Apps","AI Tools"]'></span>
+      </div>
+      <p class="hero-bio">
+        Full Stack Developer passionate about crafting immersive digital experiences.
+        I turn complex problems into elegant, performant solutions — from pixel-perfect UIs
+        to scalable cloud architectures.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary btn-magnetic"><span>View My Work</span></a>
+        <a href="#contact"  class="btn-outline btn-magnetic">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="counter" data-target="50" data-suffix="+">0</span>
+          <p>Projects</p>
+        </div>
+        <div class="hero-stat">
+          <span class="counter" data-target="5" data-suffix=" yrs">0</span>
+          <p>Experience</p>
+        </div>
+        <div class="hero-stat">
+          <span class="counter" data-target="20" data-suffix="+">0</span>
+          <p>Technologies</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-video-wrap">
+      <div class="hero-video-frame">
+        <video src="assets/videos/3d-video.mp4" autoplay muted loop playsinline class="hero-video" aria-label="Portfolio demo video"></video>
+        <div class="hero-video-overlay"></div>
+        <!-- <div class="hero-video-badge"><span class="vbadge-dot"></span>Live Preview</div> -->
+        <!-- <div class="hero-video-corner tl"></div>
+        <div class="hero-video-corner tr"></div>
+        <div class="hero-video-corner bl"></div>
+        <div class="hero-video-corner br"></div> -->
+      </div>
+    </div>
+  </div>
+
+  
+</section>
+
+
+<section id="about" aria-label="About me">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-img-wrap">
+          <img src="assets/images/wasiq.png" alt="Wasiq Zahoor" />
+        </div>
+        <div class="about-frame-accent"></div>
+        <div class="about-floating-badge b1">⚡ Available for hire</div>
+        <div class="about-floating-badge b2">🌍 Remote-friendly</div>
+      </div>
+      <div class="about-text">
+        <div class="section-header" style="text-align:left;margin-bottom:1.5rem">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-sub">The person behind the code</p>
+        </div>
+        <p class="about-body">
+          I'm a Full Stack Developer with 5+ years building production applications that serve
+          thousands of real users. My sweet spot is the intersection of beautiful design and
+          rock-solid engineering.
+        </p>
+        <p class="about-body">
+          When I'm not writing code, you'll find me exploring new frameworks, contributing to
+          open-source, or experimenting with WebGL and Three.js to push what's possible on the web.
+        </p>
+        <div class="about-highlights">
+          <div class="about-highlight">
+            <div class="about-highlight-icon">🚀</div>
+            <div class="about-highlight-text">Performance-obsessed — every millisecond counts</div>
+          </div>
+          <div class="about-highlight">
+            <div class="about-highlight-icon">🎨</div>
+            <div class="about-highlight-text">Design-aware developer with an eye for detail</div>
+          </div>
+          <div class="about-highlight">
+            <div class="about-highlight-icon">🤝</div>
+            <div class="about-highlight-text">Team player who loves mentoring junior devs</div>
+          </div>
+          <div class="about-highlight">
+            <div class="about-highlight-icon">📚</div>
+            <div class="about-highlight-text">Continuous learner — always building something new</div>
+          </div>
+        </div>
+        <a href="assets/resume.pdf" target="_blank" class="btn-primary btn-magnetic" style="display:inline-flex;align-items:center;gap:8px">
+          <span>Download Resume ↓</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="skills" aria-label="Skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <p class="section-sub">Drag the globe · technologies I work with daily</p>
+    </div>
+    <div class="skills-layout">
+      <div class="skills-left">
+        <div id="skills-container"></div>
+      </div>
+      <div class="skills-right reveal">
+        <canvas id="globe-canvas" aria-label="Interactive skills globe"></canvas>
+        <p class="globe-hint">↔ Drag to rotate</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="projects" aria-label="Projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-sub">Click any card for details · demo · source</p>
+    </div>
+    <div class="filter-bar" id="project-filter-bar" role="tablist" aria-label="Filter projects"></div>
+    <div id="projects-grid" aria-live="polite"></div>
+
+    <div class="video-showcase">
+      <div class="section-header" style="margin-top:4rem;">
+        <h3 class="section-title" style="font-size:1.6rem">Project Demo Videos</h3>
+        <p class="section-sub">Watch it in action</p>
+      </div>
+      <div class="video-grid">
+        <div class="video-card reveal">
+          <video src="assets/videos/video1.mp4" autoplay muted loop playsinline></video>
+          <div class="video-card-info">
+            <h4 class="video-card-title">New Tech Softs</h4>
+            <p class="video-card-desc">Full 3D animated Software Company Website with immersive interactions.</p>
+          </div>
+        </div>
+        <div class="video-card reveal">
+          <video src="assets/videos/Video2.mp4" autoplay muted loop playsinline style="background:var(--surface2)"></video>
+          <div class="video-card-info">
+            <h4 class="video-card-title">Biglou's Optimizer </h4>
+            <p class="video-card-desc">Enhance your system and get full boost for gaming.</p>
+          </div>
+        </div>
+        <div class="video-card reveal">
+          <video src="assets/videos/video3.mp4" autoplay muted loop playsinline style="background:var(--surface2)"></video>
+          <div class="video-card-info">
+            <h4 class="video-card-title">Utilities Websites</h4>
+            <p class="video-card-desc">These Websites help users to do their works easy.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal-backdrop"></div>
+  <div class="modal-inner">
+    <button class="modal-close" aria-label="Close modal">✕</button>
+    <div id="modal-media"></div>
+    <div class="modal-body">
+      <div class="modal-meta"><span id="modal-year"></span></div>
+      <h2 id="modal-title"></h2>
+      <p id="modal-desc"></p>
+      <div id="modal-tags"></div>
+      <div class="modal-actions">
+        <a id="modal-demo"   href="#" target="_blank" class="btn-primary"><span>Live Demo ↗</span></a>
+        <a id="modal-github" href="#" target="_blank" class="btn-outline">GitHub ⌥</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section id="certificates" aria-label="Certificates">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Certificates</h2>
+      <p class="section-sub">Verified credentials & professional certifications</p>
+    </div>
+    <div class="filter-bar" id="cert-filter-bar" role="tablist"></div>
+    <div id="certs-grid" aria-live="polite"></div>
+  </div>
+</section>
+
+
+<section id="experience" aria-label="Work experience">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Experience</h2>
+      <p class="section-sub">My professional journey</p>
+    </div>
+    <div id="experience-timeline"></div>
+  </div>
+</section>
+
+
+<section id="contact" aria-label="Contact">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-sub">Open to opportunities — let's build something together</p>
+    </div>
+    <div class="contact-grid" ">
+      <div class="contact-info">
+        <div class="contact-video-wrap">
+          <div class="contact-video-frame" style="height: 35pc;">
+            <video src="assets/videos/contact-video.mp4" autoplay muted loop playsinline class="contact-video" aria-label="Portfolio demo video"></video>
+            <div class="contact-video-overlay"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="right-col">
+        
+        <div class="contact-form-wrap">
+          <form id="contact-form" action="https://formspree.io/f/mlgzdyon" method="POST" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input id="subject" type="text" name="subject" placeholder="Project inquiry, collab…" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project…" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="submit-btn">Send Message →</button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="contact-info-center">
+  <h3 style="font-size: xx-large; margin-top: 20px;">Let's Talk</h3>
+  <p>
+    Whether you have a project in mind, want to collaborate, or just want to say hello — my inbox is always open. I'll get back to you within 24 hours.
+  </p>
+  <p class="contact-email">
+    <i>✉</i> wasiqzahoor1234@gmail.com
+  </p>
+
+  <div class="contact-socials">
+  <a href="https://github.com/wasiqzahoor" target="_blank" class="social-link" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/chaudhary-wasiq-zahoor" target="_blank" class="social-link" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+
+  <a href="https://www.instagram.com/ch_wiqii" target="_blank" class="social-link" title="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://www.facebook.com/wasiqzahoor21" target="_blank" class="social-link" title="Facebook">
+    <i class="fab fa-facebook"></i>
+  </a>
+</div>
+</div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="footer-glow-top"></div>
+  <div class="container">
+    <div class="footer-top">
+
+      <div class="footer-brand">
+        <div class="footer-logo">WZ<span class="accent-dot">.</span></div>
+        <p class="footer-tagline">Crafting digital experiences<br>one line at a time.</p>
+
+<div class="contact-socials">
+  <a href="https://github.com/wasiqzahoor" target="_blank" class="social-link" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/chaudhary-wasiq-zahoor" target="_blank" class="social-link" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+
+  <a href="https://www.instagram.com/ch_wiqii" target="_blank" class="social-link" title="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://www.facebook.com/wasiqzahoor21" target="_blank" class="social-link" title="Facebook">
+    <i class="fab fa-facebook"></i>
+  </a>
+</div>
+      </div>
+
+      <div class="footer-nav-group">
+        <h4 class="footer-nav-heading">Navigate</h4>
+        <nav aria-label="Footer navigation">
+          <a href="#about"        class="footer-link">About</a>
+          <a href="#skills"       class="footer-link">Skills</a>
+          <a href="#projects"     class="footer-link">Projects</a>
+          <a href="#certificates" class="footer-link">Certs</a>
+          <a href="#experience"   class="footer-link">Experience</a>
+          <a href="#contact"      class="footer-link">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-nav-group">
+        <h4 class="footer-nav-heading">Services</h4>
+        <span class="footer-service">Web Development</span>
+        <span class="footer-service">UI/UX Design</span>
+        <span class="footer-service">API Architecture</span>
+        <span class="footer-service">Cloud & DevOps</span>
+        <span class="footer-service">AI Integration</span>
+      </div>
+
+      <div class="footer-cta-col">
+        <h4 class="footer-nav-heading">Ready to build?</h4>
+        <p class="footer-cta-text">Have a project or idea? Let's bring it to life.</p>
+        <a href="#contact" class="footer-cta-btn">Start a Project →</a>
+      </div>
+
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© <span id="footer-year"></span> Wasiq Zahoor · Built with ❤️ &amp; passion</p>
+      <div class="footer-status">
+        <span class="status-dot"></span>
+        <span>Available for freelance</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById("footer-year").textContent = new Date().getFullYear();</script>
+<script src="js/data-projects.js"></script>
+<script src="js/data-certificates.js"></script>
+<script src="js/data-skills.js"></script>
+<script src="js/three-scene.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/certificates.js"></script>
+<script src="js/bg-particles.js"></script>
+<script src="js/main.js"></script>
+<script src="js/form.js"></script>
+</body>
+</html>
