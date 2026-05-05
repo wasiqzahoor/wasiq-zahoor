@@ -11,7 +11,7 @@ const PROJECTS = [
     tags: ["Next.js", "Tailwind CSS", "MongoDb","Stripe","Email Js"],
     description: "A professional software optimization tool designed to help businesses streamline their operations.",
     longDescription: "Built with Next.js and Tailwind CSS, Bigluas Optimizer is a robust web platform that helps developers and companies optimize their software performance. It provides detailed metrics and actionable insights for software efficiency.",
-    image: "assets/images/image1.png",
+    image: "assets/images/image1.webp",
     demoUrl: "https://biglousoptimizations.com/",
     githubUrl: "https://github.com/wasiqzahoor/Biglous-Website",
     featured: true,
