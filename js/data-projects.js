@@ -134,6 +134,19 @@ const PROJECTS = [
     featured: true,
     year: 2024,
   },
+  {
+    id: 11,
+    title: "CodeSnap",
+    category: "Developer Tools",
+    tags: ["Prism.js", "3D UI", "Syntax Highlighting", "Image Generation", "JavaScript", "React"],
+    description: "A professional code-to-image generator with stunning 3D tilt effects and themes.",
+    longDescription: "CodeSnap transforms raw code into beautiful, high-resolution screenshots. It features advanced syntax highlighting for 9+ languages, customizable 3D perspective controls, 8+ professional themes, and supports exporting in PNG, SVG, and WEBP formats while maintaining 100% privacy.",
+    image: "assets/images/image11.png",
+    demoUrl: "https://codesnap.newtechsofts.com",
+    githubUrl: "https://github.com/wasiqzahoor/Code-Snap",
+    featured: true,
+    year: 2025,
+},
 ];
 
 // Filter categories for the UI
@@ -144,4 +157,5 @@ const PROJECT_CATEGORIES = [
   { id: "ai", label: "AI Tools" },
   { id: "utilities", label: "Utilities" },
   { id: "desktop", label: "Desktop" },
+  { id: "Developer Tools", label: "Developer Tools" },
 ];
