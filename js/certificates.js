@@ -18,15 +18,18 @@ class CertificatesSection {
       <article class="cert-card reveal" style="animation-delay:${i * 0.08}s; --cert-color: ${c.color}">
         <div class="cert-glow-border"></div>
         <div class="cert-inner">
-          <div class="cert-logo-wrap">
-            <div class="cert-logo" style="color:${c.color}">${c.issuerLogo}</div>
+          <!-- Real Certificate Image Display -->
+          <div class="cert-image-wrap">
+            <img src="${c.image}" alt="${c.title}" class="cert-image" loading="lazy">
           </div>
           <div class="cert-body">
-            <span class="cert-date">${c.date}</span>
+            <div class="cert-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+              <span class="cert-date">${c.date}</span>
+              <div class="cert-logo" style="color:${c.color}">${c.issuerLogo}</div>
+            </div>
             <h3 class="cert-title">${c.title}</h3>
             <p class="cert-issuer">${c.issuer}</p>
             <p class="cert-desc">${c.description}</p>
-           
           </div>
         </div>
       </article>

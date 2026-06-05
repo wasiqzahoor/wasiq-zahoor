@@ -24,6 +24,25 @@
   --trans:       all 0.3s cubic-bezier(0.4,0,0.2,1);
   --nav-h:       70px;
 }
+.cert-image-wrap {
+  width: 100%;
+  height: 160px; /* Aap is height ko card ke hisab se adjust kar sakte hain */
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.cert-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Is se image stretch nahi hogi aur container mein fit rahegi */
+  transition: transform 0.3s ease;
+}
+
+.cert-card:hover .cert-image {
+  transform: scale(1.05); /* Hover par subtle zoom effect */
+}
 .light-theme {
   --bg:#f0f2ff; --bg2:#e8ebff; --bg3:#dde2ff; --surface:#ffffff; --surface2:#f5f7ff;
   --border:rgba(100,80,200,0.15); --text:#0d0f24; --text2:#4a5578; --text3:#8892b0;
