@@ -211,7 +211,20 @@ const CERTIFICATES = [
     color: "#0096D6",
     description: "Formulating high-impact presentations to pitch software architectures and business layouts.",
     image: "assets/images/Certificates16.png",
-  }
+  },
+  {
+    id: 17,
+    title: "Bring AI to Work Workshop",
+    issuer: "Google Workspace",
+    issuerLogo: "Google",
+    date: "2026",
+    credentialId: "4837859105CW",
+    credentialUrl: "https://bringaitowork.aicurated.com/pluginfile.php/1/tool_certificate/issues/1780723568/4837859105CW.pdf",
+    category: "ai",
+    color: "#6C63FF",
+    description: "Hands-on introduction to using AI tools in workplace productivity, including automation, smart workflows, and practical applications of machine learning.",
+    image: "assets/images/Certificates17.png",
+}
 ];
 
 const CERTIFICATE_CATEGORIES = [
