@@ -263,7 +263,20 @@ const PROJECTS = [
     githubUrl: "https://github.com/wasiqzahoor/AI-Assistant-",
     featured: false,
     year: 2025,
-  }
+  },
+  {
+  id: 21,
+  title: "Gods Angle Scholarship Website",
+  category: "fullstack",
+  tags: ["Next.js", "Tailwind CSS", "MongoDB", "Stripe", "Email JS"],
+  description: "A scholarship discovery platform that helps students find, explore, and apply for international scholarships, fellowships, internships, and educational opportunities worldwide.",
+  longDescription: "Gods Angle Scholarship Website is a comprehensive educational platform built with Next.js, Tailwind CSS, MongoDB, Stripe, and Email JS. The platform connects students with fully funded scholarships, fellowships, internships, and study opportunities from leading universities and organizations around the world. It features scholarship listings, detailed eligibility information, application guidance, secure payment integration, and automated email notifications, making it easier for students to discover and pursue academic opportunities that support their educational and career goals.",
+  image: "assets/images/image21.png",
+  demoUrl: "https://gods-angels.com/",
+  githubUrl: "https://github.com/wasiqzahoor/Gods-Angels-Scholarships-Website",
+  featured: true,
+  year: 2024,
+}
 ];
 
 // Filter categories for the UI
