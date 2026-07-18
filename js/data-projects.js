@@ -276,6 +276,25 @@ const PROJECTS = [
   githubUrl: "https://github.com/wasiqzahoor/Gods-Angels-Scholarships-Website",
   featured: true,
   year: 2024,
+},
+{
+  id: 22,
+  title: "Al Zumair Coffee",
+  category: "frontend",
+  tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Design"],
+  description: "A modern and responsive coffee shop website designed to showcase premium coffee products, menu items, and provide customers with a seamless online browsing experience.",
+
+  longDescription: "Al Zumair Coffee is a professionally designed responsive coffee shop website built using HTML5, CSS3, JavaScript, and Bootstrap. The website provides an elegant user experience with beautifully designed pages, including Home, About, Products, Product Details, Shopping Cart, Checkout, Login, Signup, and Contact. It features a modern UI, responsive layout, interactive product sections, smooth navigation, and an organized menu presentation. The project demonstrates front-end development skills, clean design principles, and responsive web development practices, making it suitable for coffee shops, cafés, and restaurant businesses.",
+
+  image: "assets/images/image22.webp",
+
+  demoUrl: "https://wasiqzahoor.github.io/Al-Zumair-Coffee/",
+
+  githubUrl: "https://github.com/wasiqzahoor/Al-Zumair-Coffee",
+
+  featured: true,
+
+  year: 2026,
 }
 ];
 
