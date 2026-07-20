@@ -197,5 +197,61 @@ const EXPERIENCE = [
     ],
     tech: ["Customer Service", "Client Relations", "Support Ticketing", "Communication"],
     color: "#FF9900",
-  }
+  },
+  {
+  id: 8,
+  role: "Social Media Manager",
+  company: "Hecta AI Solutions",
+  location: "Onsite",
+  period: "Jul 2026 – Present",
+  current: true,
+  description:
+    "Managing the company's complete social media presence, branding, content strategy, and digital marketing campaigns across multiple platforms.",
+  achievements: [
+    "Managing and growing Hecta AI Solutions' social media presence across LinkedIn, Facebook, Instagram, and other platforms.",
+    "Designing professional social media posts, banners, promotional creatives, and marketing materials.",
+    "Creating engaging video content, reels, and promotional campaigns to increase brand awareness and audience engagement.",
+    "Planning and managing Meta Ads campaigns to generate leads and improve online visibility.",
+    "Developing content calendars, analyzing campaign performance, and optimizing marketing strategies for better reach.",
+    "Handling complete social media operations, branding, and digital communication for the company."
+  ],
+  tech: [
+    "Meta Ads",
+    "LinkedIn Marketing",
+    "Facebook Marketing",
+    "Instagram Marketing",
+    "Canva",
+    "Adobe Photoshop",
+    "Content Strategy",
+    "Social Media Management"
+  ],
+  color: "#E4405F",
+},
+{
+  id: 9,
+  role: "Digital Marketing & Shopify Intern",
+  company: "WolfAura Marketing Agency",
+  location: "Onsite",
+  period: "April 2026 – Jun 2026",
+  current: false,
+  description:
+    "Worked on digital marketing campaigns, Shopify store management, and Meta advertising while supporting e-commerce business growth.",
+  achievements: [
+    "Managed and optimized Shopify stores for better user experience and conversions.",
+    "Created and managed Meta (Facebook & Instagram) advertising campaigns for client projects.",
+    "Assisted in developing marketing strategies to improve brand awareness and customer engagement.",
+    "Performed product management, campaign optimization, and e-commerce store maintenance.",
+    "Collaborated with the marketing team to analyze campaign performance and improve ROI."
+  ],
+  tech: [
+    "Shopify",
+    "Meta Ads",
+    "Facebook Ads",
+    "Instagram Ads",
+    "Digital Marketing",
+    "E-commerce",
+    "Google Analytics"
+  ],
+  color: "#95BF47",
+},
 ];
