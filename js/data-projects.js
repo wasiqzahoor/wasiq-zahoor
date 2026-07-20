@@ -295,6 +295,34 @@ const PROJECTS = [
   featured: true,
 
   year: 2026,
+},
+{
+  id: 23,
+  title: "Jessort Travel Website",
+  category: "frontend",
+  tags: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Bootstrap",
+    "Responsive Design"
+  ],
+
+  description:
+    "A modern and responsive travel website template designed for travel agencies, tour operators, and tourism businesses, offering an engaging user experience with elegant layouts and interactive sections.",
+
+  longDescription:
+    "Jessort Travel Website is a professionally designed responsive travel website template built using HTML5, CSS3, JavaScript, and Bootstrap. The template features a modern and visually appealing interface with multiple sections, including Home, Destinations, Tour Packages, About, Services, Gallery, Contact, and Booking. It is fully responsive, optimized for all devices, and provides smooth navigation, attractive animations, and clean UI components. The project demonstrates strong front-end development skills, responsive web design principles, and reusable template architecture, making it suitable for travel agencies, tour companies, tourism businesses, and booking platforms.",
+
+  image: "assets/images/image23.webp",
+
+  demoUrl: "https://wasiqzahoor.github.io/Jessort-Travel-Template/",
+
+  githubUrl: "https://github.com/wasiqzahoor/Jessort-Travel-Template",
+
+  featured: true,
+
+  year: 2026,
 }
 ];
 
